@@ -42,7 +42,7 @@ def initializeLogs(loggerLevel, consoleLoggerLevel):
     # adding console appender
     logger.addHandler(consoleLogger)
 
-    return (formatter, logger, consoleLogger,)
+    return formatter, logger, consoleLogger,
 
 
 def baseOperations(port, logger):
