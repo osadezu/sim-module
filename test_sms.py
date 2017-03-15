@@ -3,14 +3,14 @@ from test_shared import *
 from lib.sim900.smshandler import SimGsmSmsHandler, SimSmsPduCompiler
 import random
 
-COMPORT_NAME = "com22"
+COMPORT_NAME = "/dev/ttyS0"
 
 # logging levels
 CONSOLE_LOGGER_LEVEL = logging.INFO
 LOGGER_LEVEL = logging.INFO
 
 # WARN: scecify recipient number here!!!
-TARGET_PHONE_NUMBER = "+38 097 123 45 67"
+TARGET_PHONE_NUMBER = "+19172512321"
 
 # You can specify SMS center number, but it's not necessary. If you will not specify SMS center number, SIM900
 # module will get SMS center number from memory
