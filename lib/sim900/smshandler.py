@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # The MIT License (MIT)
 #
 # Copyright (c) 2014-2015 Bohdan Danishevsky ( dbn@aminis.com.ua )
@@ -29,7 +30,6 @@ functions of SIM 900 modules.
 Copyright (C) 2014-2015 Bohdan Danishevsky ( dbn@aminis.com.ua ) All Rights Reserved.
 """
 
-# -*- coding: utf-8 -*-
 from lib.sim900.gsm import SimGsm
 from lib.sim900.simshared import *
 import binascii
